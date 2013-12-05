@@ -1,29 +1,66 @@
+#Junk Files
+*.DS_Store
+[Tt]humbs.db
 
-#ignore thumbnails created by windows
-Thumbs.db
-#Ignore files build by Visual Studio
-*.obj
+#Log Folder
+[Ll]og
+
+#Visual Studio Files
+[Oo]bj
+[Bb]in
+[Dd]ebug
+[Bb]uild/
+[Cc]lient[Bb]in
+[Gg]enerated_[Cc]ode
+[Oo]utput
+[Ss]ql
+*.user
+*.suo
 *.exe
 *.pdb
-*.user
 *.aps
-*.pch
-*.vspscc
 *_i.c
 *_p.c
 *.ncb
-*.suo
 *.tlb
 *.tlh
+*.[Cc]ache
 *.bak
-*.cache
+*.ncb
 *.ilk
 *.log
-[Bb]in
-[Dd]ebug*/
 *.lib
 *.sbr
-obj/
-[Rr]elease*/
+*.sdf
+ipch/ 
+*.dbmdl
+*.csproj.user
+*.cache
+*.swp
+*.vspscc
+*.vssscc
+*.bak.*
+*.bak
+*.schemaview
+*.Publish.xml
+*.manifest
+*.xap
+
+#Tools
+_ReSharper.*
 _ReSharper*/
-[Tt]est[Rr]esult*
+*.resharper
+*.resharper.user
+[Nn][Dd]epend[Oo]ut*/
+Ankh.NoLoad
+
+#Other
+.svn
+
+# NuGet Packages Directory
+packages
+
+#MonoDevelop
+*.pidb
+*.userprefs
+*.dll.mdb
