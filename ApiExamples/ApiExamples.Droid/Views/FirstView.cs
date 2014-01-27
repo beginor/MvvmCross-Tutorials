@@ -1,5 +1,6 @@
 using Android.App;
 using Android.OS;
+using Cirrious.CrossCore.Converters;
 using Cirrious.MvvmCross.Droid.Views;
 
 namespace ApiExamples.Droid.Views
@@ -184,6 +185,14 @@ namespace ApiExamples.Droid.Views
         }
     }
 
+    public class ErrorExistsValueConverter : MvxValueConverter
+    {
+        public override object Convert(object value, System.Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            return (value != null);
+        }
+    }
+
     [Activity(NoHistory = true)]
     public class RatingBarView : MvxActivity
     {
@@ -191,6 +200,16 @@ namespace ApiExamples.Droid.Views
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Test_RatingBar);
+        }
+    }
+
+    [Activity(NoHistory = true)]
+    public class CommandView : MvxActivity
+    {
+        protected override void OnCreate(Bundle bundle)
+        {
+            base.OnCreate(bundle);
+            SetContentView(Resource.Layout.Test_Command);
         }
     }
 }
