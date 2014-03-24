@@ -19,8 +19,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
-    <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
+    <MtouchI18n>
+    </MtouchI18n>
+    <MtouchArch>ARMv7</MtouchArch>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>
@@ -29,7 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
-    <MtouchLink>None</MtouchLink>
+    <MtouchI18n>
+    </MtouchI18n>
+    <MtouchArch>ARMv7</MtouchArch>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
@@ -82,31 +86,31 @@
     <Reference Include="System.Core" />
     <Reference Include="monotouch" />
     <Reference Include="Cirrious.MvvmCross">
-      <HintPath>..\..\..\MvvmCross\bin\Debug\Mvx\\Portable\Cirrious.MvvmCross.dll</HintPath>
+      <HintPath>..\..\..\MvvmCross\bin\Debug\Mvx\Portable\Cirrious.MvvmCross.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross.Plugins.Visibility">
-      <HintPath>..\..\..\MvvmCross\bin\Debug\Mvx\\Portable\Cirrious.MvvmCross.Plugins.Visibility.dll</HintPath>
+      <HintPath>..\..\..\MvvmCross\bin\Debug\Mvx\Portable\Cirrious.MvvmCross.Plugins.Visibility.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross.Plugins.Color">
-      <HintPath>..\..\..\MvvmCross\bin\Debug\Mvx\\Portable\Cirrious.MvvmCross.Plugins.Color.dll</HintPath>
+      <HintPath>..\..\..\MvvmCross\bin\Debug\Mvx\Portable\Cirrious.MvvmCross.Plugins.Color.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.CrossCore.Touch">
-      <HintPath>..\..\..\MvvmCross\bin\Debug\Mvx\\Touch\Cirrious.CrossCore.Touch.dll</HintPath>
+      <HintPath>..\..\..\MvvmCross\bin\Debug\Mvx\Touch\Cirrious.CrossCore.Touch.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross.Binding.Touch">
-      <HintPath>..\..\..\MvvmCross\bin\Debug\Mvx\\Touch\Cirrious.MvvmCross.Binding.Touch.dll</HintPath>
+      <HintPath>..\..\..\MvvmCross\bin\Debug\Mvx\Touch\Cirrious.MvvmCross.Binding.Touch.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross.Plugins.Color.Touch">
-      <HintPath>..\..\..\MvvmCross\bin\Debug\Mvx\\Touch\Cirrious.MvvmCross.Plugins.Color.Touch.dll</HintPath>
+      <HintPath>..\..\..\MvvmCross\bin\Debug\Mvx\Touch\Cirrious.MvvmCross.Plugins.Color.Touch.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross.Plugins.Visibility.Touch">
-      <HintPath>..\..\..\MvvmCross\bin\Debug\Mvx\\Touch\Cirrious.MvvmCross.Plugins.Visibility.Touch.dll</HintPath>
+      <HintPath>..\..\..\MvvmCross\bin\Debug\Mvx\Touch\Cirrious.MvvmCross.Plugins.Visibility.Touch.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross.Touch">
-      <HintPath>..\..\..\MvvmCross\bin\Debug\Mvx\\Touch\Cirrious.MvvmCross.Touch.dll</HintPath>
+      <HintPath>..\..\..\MvvmCross\bin\Debug\Mvx\Touch\Cirrious.MvvmCross.Touch.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross.Binding">
-      <HintPath>..\..\..\MvvmCross\bin\Debug\Mvx\\Portable\Cirrious.MvvmCross.Binding.dll</HintPath>
+      <HintPath>..\..\..\MvvmCross\bin\Debug\Mvx\Portable\Cirrious.MvvmCross.Binding.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.CrossCore">
       <HintPath>..\..\..\MvvmCross\bin\Debug\Mvx\Portable\Cirrious.CrossCore.dll</HintPath>
